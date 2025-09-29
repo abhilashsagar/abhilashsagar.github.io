@@ -1,0 +1,21 @@
+site_name: "Abhilash Sagar — Docs"
+site_url: "https://abhilashsagar.github.io"
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.expand
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - search.suggest
+
+nav:
+  - Home: index.md
+  - Linux Device Drivers:
+      - Introduction: linuxdd/index.md
+  - Yocto:
+      - Introduction: yocto/index.md
+  - RTOS:
+      - Introduction: rtos/index.md
