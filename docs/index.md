@@ -8,7 +8,8 @@ This is my hub for all embedded Linux notes and weekly updates.
 
 ## 📰 Latest Weekly Posts
 
-- [Kaage Pi Linux SBC](docs/kaagepi/index.md) *(2025-10-02)*
+- [Kaage Pi Linux SBC](kaagepi) *(2025-10-02)*
+
 
 
 
