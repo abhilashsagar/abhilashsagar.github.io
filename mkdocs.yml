@@ -17,8 +17,6 @@ plugins:
 
 nav:
   - Home: index.md
-  - Blog:
-      - blog/index.md
   - Linux Device Drivers:
       - Introduction: linuxdd/index.md
   - Yocto:
