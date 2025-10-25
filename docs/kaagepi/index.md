@@ -54,5 +54,6 @@ Released under the [CERN OHL-S license](https://ohwr.org/project/cernohl/wikis/D
 
 ### Follow my work
 - [LinkedIn](https://www.linkedin.com/in/abhilashsagar/)  
-- [GitHub @bootembedded](https://github.com/bootembedded)
+- [GitHub @abhilashsagar](https://github.com/abhilashsagar)
+
 
