@@ -14,15 +14,15 @@
       
       
       <link rel="icon" href="../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.21">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.22">
     
     
       
-        <title>My First Weekly Note - Abhilash Sagar — Docs</title>
+        <title>Kaage Pi — A ₹2 K Linux SBC built from scratch - Abhilash Sagar — Docs</title>
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.2a3383ac.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.84d31ad4.min.css">
       
       
 
@@ -59,6 +59,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#kaage-pi-a-2-k-linux-sbc-built-from-scratch" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -91,7 +96,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              My First Weekly Note
+              Kaage Pi — A ₹2 K Linux SBC built from scratch
             
           </span>
         </div>
@@ -446,6 +451,82 @@
   
   
   
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#why-i-built-it" class="md-nav__link">
+    <span class="md-ellipsis">
+      Why I Built It
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#future-work" class="md-nav__link">
+    <span class="md-ellipsis">
+      Future Work
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#resources-tutorials-that-helped" class="md-nav__link">
+    <span class="md-ellipsis">
+      Resources &amp; Tutorials That Helped
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Resources &amp; Tutorials That Helped">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#embedded-linux-sbc-design" class="md-nav__link">
+    <span class="md-ellipsis">
+      Embedded Linux &amp; SBC Design
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#license" class="md-nav__link">
+    <span class="md-ellipsis">
+      License
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="License">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#follow-my-work" class="md-nav__link">
+    <span class="md-ellipsis">
+      Follow my work
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
   
 </nav>
                   </div>
@@ -461,19 +542,55 @@
 
 
 
-  <h1>My First Weekly Note</h1>
+<h1 id="kaage-pi-a-2-k-linux-sbc-built-from-scratch">Kaage Pi — A ₹2 K Linux SBC built from scratch</h1>
+<p>Booting Linux on a hand-soldered Allwinner V3s board.</p>
+<p><img alt="Kaage Pi booting Linux" src="images/kaagepi_boot.png" /></p>
+<hr />
+<h2 id="why-i-built-it">Why I Built It</h2>
+<p>I wanted to see if a usable Linux single-board computer could be built in India for under ₹2 K using open components and simple tools.<br />
+The Allwinner V3s SoC (ARM Cortex-A7 + 64 MB DDR2 RAM) made it possible, a single chip capable of running Debian Linux without external RAM.</p>
+<p>This page documents the journey — from loose components on my desk to a working Debian shell prompt.</p>
+<hr />
+<h2 id="future-work">Future Work</h2>
+<ul>
+<li>Bring-up the LCD (Parallel RGB)  </li>
+<li>Enable Ethernet PHY and ping from Linux  </li>
+<li>Port LVGL on framebuffer   </li>
+<li>Work on SPI NOR flash </li>
+</ul>
+<hr />
+<h2 id="resources-tutorials-that-helped">Resources &amp; Tutorials That Helped</h2>
+<p>I learned a lot from open-source communities and amazing YouTube creators while building Kaage Pi.<br />
+Here are a few that guided me through PCB design, power circuits, and Linux bring-up:</p>
+<h3 id="embedded-linux-sbc-design">Embedded Linux &amp; SBC Design</h3>
+<ul>
+<li><a href="https://simonrichards.com/v3s/">Simon Richards – Allwinner V3S SBC</a> – Detailed build of an SBC with Allwinner V3s, great reference.  </li>
+<li><a href="http://wtarreau.blogspot.com/2020/09/breadbee-build-your-own-single-board.html">wtarreau – BreadBee: Build Your Own Single Board</a> – Blog post covering the full hardware/software build of an open SBC.  </li>
+<li><a href="https://popovicu.com/posts/making-my-first-embedded-linux-system/">Popovicu – Making My First Embedded Linux System</a> – A beginner-friendly walk-through of embedding Linux on bare hardware.  </li>
+<li><a href="https://github.com/balmerdx/AllwinnerV3S_KiCad">GitHub – balmerdx/AllwinnerV3S_KiCad</a> – Open KiCad project for V3s boards, used as a layout reference and inspiration.</li>
+</ul>
+<p><a href="https://www.youtube.com/watch?v=ZCI4QFv5x2g"><img alt="Phil’s Lab KiCad PCB Layout Tips" src="https://img.youtube.com/vi/ZCI4QFv5x2g/0.jpg" /></a><br />
+<strong>Phil’s Lab – KiCad PCB Layout Tips</strong> – Clear explanation of high-speed routing, decoupling, and ground planes.</p>
+<p><a href="https://www.youtube.com/watch?v=3v2QXW3D5Dc"><img alt="Phil’s Lab SMPS Layout" src="https://img.youtube.com/vi/3v2QXW3D5Dc/0.jpg" /></a><br />
+<strong>Phil’s Lab – Switch-Mode Power Supply Layout</strong> – Helped me design the PT4103/AP3032 backlight section.</p>
+<p><a href="https://www.youtube.com/watch?v=b9FC9fAlfQE"><img alt="EEVblog – Soldering Fine-Pitch ICs by Hand" src="https://img.youtube.com/vi/b9FC9fAlfQE/0.jpg" /></a><br />
+<strong>EEVblog – Soldering Fine-Pitch ICs</strong> – Practical tricks for soldering the V3s QFP package by hand.</p>
+<p>If any of these videos helped you too, make sure to support the creators — their content accelerates so many open-hardware projects like this one.</p>
+<h2 id="license">License</h2>
+<p>All schematics, layout files, and documentation © 2025 Abhilash Sagar<br />
+Released under the <a href="https://ohwr.org/project/cernohl/wikis/Documents/CERN-OHL-version-2">CERN OHL-S license</a>.</p>
+<hr />
+<h3 id="follow-my-work">Follow my work</h3>
+<ul>
+<li><a href="https://www.linkedin.com/in/abhilashsagar/">LinkedIn</a>  </li>
+<li><a href="https://github.com/bootembedded">GitHub @bootembedded</a></li>
+</ul>
 
-<p>This is my <strong>first weekly blog post</strong>.<br />
-I’ll be posting updates every week on Linux device drivers, Yocto, RTOS, and my Kaage Pi SBC project.</p>
 
 
 
 
 
-
-
-  
-  
 
 
 
