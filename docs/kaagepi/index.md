@@ -21,8 +21,10 @@ If you’ve ever wondered “Can I really make my own Linux board?” —
 the answer is yes, you can.
 Start small, stay patient, and let curiosity lead.
 
+---
 
-This page documents the journey — from loose components on my desk to a working Linux shell prompt.
+### 🔗 Open Hardware Repository
+👉 **Full open hardware source files available at [Kaage Pi GitHub Repository](https://github.com/abhilashsagar/Kaage-Pi).**
 
 ---
 
@@ -55,6 +57,7 @@ Released under the [CERN OHL-S license](https://ohwr.org/project/cernohl/wikis/D
 ### Follow my work
 - [LinkedIn](https://www.linkedin.com/in/abhilashsagar/)  
 - [GitHub @abhilashsagar](https://github.com/abhilashsagar)
+
 
 
 
