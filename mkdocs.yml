@@ -18,8 +18,8 @@ plugins:
 nav:
   - Home: index.md
   - Linux Device Drivers:
-      - Introduction: linuxdd/index.md
+      - Introduction: linuxdd/
   - Yocto:
-      - Introduction: yocto/index.md
+      - Introduction: yocto/
   - RTOS:
-      - Introduction: rtos/index.md
+      - Introduction: rtos/
