@@ -45,7 +45,8 @@ Here are a few that guided me through PCB design, power circuits, and Linux brin
 - [Popovicu – Making My First Embedded Linux System](https://popovicu.com/posts/making-my-first-embedded-linux-system/) – A beginner-friendly walk-through of embedding Linux on bare hardware.  
 - [GitHub – balmerdx/AllwinnerV3S_KiCad](https://github.com/balmerdx/AllwinnerV3S_KiCad) – Open KiCad project for V3s boards, used as a layout reference and inspiration.
 - [**Lichee Pi Zero – Sipeed Official Docs and Schematics**](https://linux-sunxi.org/LicheePi_Zero) – A fully open V3s-based SBC. Its documentation, boot logs, and community discussions helped immensely during Kaage Pi’s early bring-up.
-[![Phil’s Lab KiCad PCB Design Full Tutorial](https://img.youtube.com/vi/aVUqaB0IMh4/0.jpg)](https://www.youtube.com/watch?v=aVUqaB0IMh4&t=3288s)
+  
+- [![Phil’s Lab KiCad PCB Design Full Tutorial](https://img.youtube.com/vi/aVUqaB0IMh4/0.jpg)](https://www.youtube.com/watch?v=aVUqaB0IMh4&t=3288s)
 
 ## License
 All schematics, layout files, and documentation © 2025 Abhilash Sagar  
@@ -56,6 +57,7 @@ Released under the [CERN OHL-S license](https://ohwr.org/project/cernohl/wikis/D
 ### Follow my work
 - [LinkedIn](https://www.linkedin.com/in/abhilashsagar/)  
 - [GitHub @abhilashsagar](https://github.com/abhilashsagar)
+
 
 
 
