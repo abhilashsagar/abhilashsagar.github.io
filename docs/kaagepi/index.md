@@ -33,18 +33,7 @@ Here are a few that guided me through PCB design, power circuits, and Linux brin
 - [Popovicu – Making My First Embedded Linux System](https://popovicu.com/posts/making-my-first-embedded-linux-system/) – A beginner-friendly walk-through of embedding Linux on bare hardware.  
 - [GitHub – balmerdx/AllwinnerV3S_KiCad](https://github.com/balmerdx/AllwinnerV3S_KiCad) – Open KiCad project for V3s boards, used as a layout reference and inspiration.
 
-[![Phil’s Lab KiCad PCB Layout Tips](https://img.youtube.com/vi/ZCI4QFv5x2g/0.jpg)](https://www.youtube.com/watch?v=ZCI4QFv5x2g)  
-**Phil’s Lab – KiCad PCB Layout Tips** – Clear explanation of high-speed routing, decoupling, and ground planes.
-
-[![Phil’s Lab SMPS Layout](https://img.youtube.com/vi/3v2QXW3D5Dc/0.jpg)](https://www.youtube.com/watch?v=3v2QXW3D5Dc)  
-**Phil’s Lab – Switch-Mode Power Supply Layout** – Helped me design the PT4103/AP3032 backlight section.
-
-[![EEVblog – Soldering Fine-Pitch ICs by Hand](https://img.youtube.com/vi/b9FC9fAlfQE/0.jpg)](https://www.youtube.com/watch?v=b9FC9fAlfQE)  
-**EEVblog – Soldering Fine-Pitch ICs** – Practical tricks for soldering the V3s QFP package by hand.
-
-
-
-If any of these videos helped you too, make sure to support the creators — their content accelerates so many open-hardware projects like this one.
+[![Phil’s Lab KiCad PCB Design Full Tutorial](https://www.youtube.com/watch?v=aVUqaB0IMh4&t=3288s)  
 
 ## License
 All schematics, layout files, and documentation © 2025 Abhilash Sagar  
@@ -55,5 +44,6 @@ Released under the [CERN OHL-S license](https://ohwr.org/project/cernohl/wikis/D
 ### Follow my work
 - [LinkedIn](https://www.linkedin.com/in/abhilashsagar/)  
 - [GitHub @abhilashsagar](https://github.com/abhilashsagar)
+
 
 
