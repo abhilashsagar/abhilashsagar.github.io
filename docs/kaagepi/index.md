@@ -1,7 +1,7 @@
 # Kaage Pi — A ₹2 K Linux SBC built from scratch
 Booting Linux on a hand-soldered Allwinner V3s board.
 
-![Kaage Pi booting Linux](images/kaagepi_boot.png)
+![Kaage Pi booting Linux](kaagepi_boot.png)
 
 ---
 
@@ -44,6 +44,7 @@ Released under the [CERN OHL-S license](https://ohwr.org/project/cernohl/wikis/D
 ### Follow my work
 - [LinkedIn](https://www.linkedin.com/in/abhilashsagar/)  
 - [GitHub @abhilashsagar](https://github.com/abhilashsagar)
+
 
 
 
